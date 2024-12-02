@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .bg-gradient {
+    background: linear-gradient(to bottom, #FF7EEC, #941381);
+    height: 100vh;
+  }
+  
+  .bg-intermediate-purple {
+    background-color: #8E44AD;
+  }
+  
+  .text-light-purple {
+    color: #D2B4DE;
+  }
+  
+  .text-dark-purple {
+    color: #6C3483;
+  }
+  
+  .bg-light-purple {
+    background-color: #A569BD;
+  }
+  
+  .border-light-purple {
+    border: 1px solid #A569BD;
+  }
+  
+  .btn-dark-purple {
+    background-color: #6C3483;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-dark-purple:hover {
+    background-color: #4A235A;
+  }
+  
+  .btn-lateral {
+    background-color: #6C3483;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .btn-lateral:hover {
+    background-color: #4A235A;
+    transform: translateY(-2px);
+  }
+  
+  aside {
+    border-right: 1px solid #A569BD;
+  }
+  
+  aside .text-center img {
+    width: 120px;
+    height: auto;
+  }
+  
+  aside p {
+    font-size: 0.9rem;
+    color: #F5EEF8;
+  }
+  
